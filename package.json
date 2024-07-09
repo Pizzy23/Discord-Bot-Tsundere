@@ -1,0 +1,45 @@
+{
+  "name": "tsundere",
+  "version": "1.5.0",
+  "description": "Tsundere",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "debug": "nodemon ./src/index.js"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@discordjs/voice": "^0.16.0",
+    "@distube/deezer": "^1.0.0",
+    "@distube/soundcloud": "^1.3.0",
+    "@distube/spotify": "^1.5.1",
+    "@distube/yt-dlp": "^1.1.3",
+    "@distube/ytdl-core": "^4.11.10",
+    "@distube/ytpl": "^1.1.1",
+    "@distube/ytsr": "^1.1.9",
+    "chalk": "^2.4.1",
+    "console-stamp": "^3.1.1",
+    "delay": "^6.0.0",
+    "discord-player": "~6.6.1",
+    "discord-tictactoe": "^4.1.1",
+    "discord-together": "^1.3.31",
+    "discord.js": "^14.7.1",
+    "distube": "^4.0.4",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^5.1.0",
+    "firebase": "^10.1.0",
+    "firebase-admin": "^11.10.1",
+    "formidable": "^3.5.1",
+    "ms": "2.1.3",
+    "nodemon": "^3.0.1",
+    "opusscript": "~0.0.8",
+    "superagent": "^8.1.2",
+    "valid-url": "^1.0.9"
+  },
+  "engines": {
+    "node": ">=16.13.0"
+  }
+}
